@@ -1,2 +1,4 @@
 # MedicineBoxDemo
+This repository contains a web-based demo that is used to view remote medical procedures captured from SDI web cameras that stream MPEG-4 video and audio over IP. 
+
 It should be noted that this demo only uses previously recorded MPEG4 audio and video data. Support for live streaming is planned on being based on a WebRTC backend that supports true real-time streams point to point. To run the demo, one needs to download all the files in this repository, including the files contain in the "videos" and "img" directories, while keeping the directory structure intact, and place all of these files in the hosting directory of a web server. An Apache web server was used for this purpose, where "htdocs" is the directory required to host the demo. Note that a Google Chrome browser was used during testing (the file "MedicineBoxDemo.html" needs to be used as the browser link), and produces the best visual results for the demo.
